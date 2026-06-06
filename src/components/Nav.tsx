@@ -60,7 +60,7 @@ export default function Nav() {
           ))}
           <li>
             <a
-              href={`mailto:${siteConfig.email}`}
+              href="#contact"
               className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-sm font-semibold text-white transition-transform hover:-translate-y-0.5"
             >
               Let&apos;s talk
@@ -110,7 +110,7 @@ export default function Nav() {
           ))}
           <li>
             <a
-              href={`mailto:${siteConfig.email}`}
+              href="#contact"
               className="inline-block rounded-full bg-[var(--accent)] px-5 py-2.5 text-sm font-semibold text-white"
             >
               Let&apos;s talk

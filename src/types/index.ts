@@ -3,7 +3,6 @@ export interface Project {
   title: string;
   description: string;
   tags: string[];
-  imageUrl: string;
   link?: string;
   status?: string;
 }
@@ -17,7 +16,6 @@ export interface ExperienceItem {
 }
 
 export interface Service {
-  icon: string;
   title: string;
   description: string;
 }

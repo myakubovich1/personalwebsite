@@ -9,11 +9,11 @@ export default function Timeline() {
           <div className="section-heading">
             <div className="section-number">03</div>
             <div className="max-w-2xl">
-              <p className="eyebrow">Trajectory</p>
-              <h2 className="section-title">Learning by doing.</h2>
+              <p className="eyebrow">Experience mockup</p>
+              <h2 className="section-title">Add your timeline here.</h2>
               <p className="section-copy">
-                Education, research, product work, and the environments that
-                shaped how I approach building.
+                Replace these rows with only the experiences that support the
+                story you want this website to tell.
               </p>
             </div>
           </div>

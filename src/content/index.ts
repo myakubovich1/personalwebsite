@@ -3,118 +3,107 @@ import type { Project, ExperienceItem, Service } from "@/types";
 export const siteConfig = {
   name: "Matsvei Yakubovich",
   initials: "MY",
-  role: "Founder & Software Builder",
-  tagline: "Building software products and finance media.",
-  bio: "I build software products and finance media — currently studying Information Systems while shipping things people actually pay for.",
-  email: "m.yakubovich@ufl.edu",
-  socials: {
-    github: "https://github.com/", // TODO: replace with real GitHub URL
-    linkedin: "https://linkedin.com/in/", // TODO: replace with real LinkedIn URL
-    instagram: "https://instagram.com/", // TODO: replace with real Instagram URL
-    telegram: "https://t.me/", // TODO: replace with real Telegram URL
-    twitter: "https://x.com/", // TODO: replace with real X/Twitter URL
-  },
+  email: "Insert your email here",
+  bio: "Write a short introduction here. Keep it personal, specific, and focused on what you care about.",
 };
 
 export const projects: Project[] = [
   {
-    id: "spaconcierge",
-    title: "SpaConcierge",
-    description: "AI missed-call booking assistant for med-spas.",
-    tags: ["AI", "Twilio", "Serverless"],
-    imageUrl: "https://picsum.photos/seed/spaconcierge/800/600",
-    status: "Live · Paying Clients",
+    id: "project-one",
+    title: "Insert Project One",
+    description:
+      "Add a one-sentence description of the problem, your solution, and why the project matters.",
+    tags: ["Category", "Tool", "Role"],
+    status: "Add status",
   },
   {
-    id: "kapitalist",
-    title: "Kapitalist.finance",
-    description: "Russian-language finance & macro media brand.",
-    tags: ["Media", "Content", "Growth"],
-    imageUrl: "https://picsum.photos/seed/kapitalist/800/600",
+    id: "project-two",
+    title: "Insert Project Two",
+    description:
+      "Replace this copy with a concise project summary and the most useful context for a visitor.",
+    tags: ["Category", "Tool", "Role"],
   },
   {
-    id: "lifemaxxing",
-    title: "Lifemaxxing Game",
-    description: "Gamified life-tracking app with retro 16-bit JRPG aesthetic, skill trees, and boss fights.",
-    tags: ["Next.js", "TypeScript", "Game"],
-    imageUrl: "https://picsum.photos/seed/lifemaxxing/800/600",
+    id: "project-three",
+    title: "Insert Project Three",
+    description:
+      "Use this space for another case study, experiment, company, or piece of work you want to feature.",
+    tags: ["Category", "Tool", "Role"],
   },
   {
-    id: "skillmaxx",
-    title: "SkillMAXX",
-    description: "Mobile skill-building platform with guided onboarding.",
-    tags: ["React Native", "Mobile"],
-    imageUrl: "https://picsum.photos/seed/skillmaxx/800/600",
+    id: "project-four",
+    title: "Insert Project Four",
+    description:
+      "Add what you made, what you contributed, and the result you want people to remember.",
+    tags: ["Category", "Tool", "Role"],
   },
   {
-    id: "maxximus",
-    title: "MAXXIMUS",
-    description: "Physique & nutrition scoring app.",
-    tags: ["React Native", "Health"],
-    imageUrl: "https://picsum.photos/seed/maxximus/800/600",
+    id: "project-five",
+    title: "Insert Project Five",
+    description:
+      "This card can be removed, duplicated, or replaced when your final project list is ready.",
+    tags: ["Category", "Tool", "Role"],
   },
   {
-    id: "vumna",
-    title: "Vumna",
-    description: "Branded product venture.",
-    tags: ["Product", "Branding"],
-    imageUrl: "https://picsum.photos/seed/vumna/800/600",
+    id: "project-six",
+    title: "Insert Project Six",
+    description:
+      "Link this card to a live product, case study, repository, article, or other relevant page.",
+    tags: ["Category", "Tool", "Role"],
   },
 ];
 
 export const experience: ExperienceItem[] = [
   {
-    role: "B.S.B.A. Information Systems (Honors)",
-    org: "University of Florida",
-    dateRange: "2025 — Present",
-    description: "Warrington College of Business, studying Information Systems with honors.",
+    role: "Insert current role or program",
+    org: "Insert organization",
+    dateRange: "Year — Present",
+    description:
+      "Add one or two sentences describing what you do, what you are learning, or what you are responsible for.",
     current: true,
   },
   {
-    role: "Analyst Intern",
-    org: "Central Bank of Armenia",
-    dateRange: "2023 — 2024",
-    description: "Research and analytical work within the central banking environment.",
+    role: "Insert role or milestone",
+    org: "Insert organization",
+    dateRange: "Year — Year",
+    description:
+      "Replace this placeholder with a concise description of the experience.",
   },
   {
-    role: "Product & Tech Role",
-    org: "List.am",
-    dateRange: "2022 — 2023",
-    description: "Contributed to product and technology initiatives at Armenia's leading classifieds platform.",
+    role: "Insert role or milestone",
+    org: "Insert organization",
+    dateRange: "Year — Year",
+    description:
+      "Focus on the work, contribution, or lesson that is most relevant to your story.",
   },
   {
-    role: "AI Engineer",
-    org: "AI9.am",
-    dateRange: "2022",
-    description: "AI product development and research.",
-  },
-  {
-    role: "IB Diploma",
-    org: "UWC Dilijan",
-    dateRange: "2023 — 2025",
-    description: "International Baccalaureate Diploma Programme, class of 2025.",
+    role: "Insert role or milestone",
+    org: "Insert organization",
+    dateRange: "Year",
+    description:
+      "Add another position, educational experience, award, or meaningful project here.",
   },
 ];
 
 export const services: Service[] = [
   {
-    icon: "⬡",
-    title: "Product Development",
-    description: "Full-stack web and mobile products, from idea to paying customers.",
+    title: "Insert Focus Area",
+    description:
+      "Describe one kind of work, topic, or discipline you want to be known for.",
   },
   {
-    icon: "⬡",
-    title: "AI Integration",
-    description: "LLM-powered features, voice agents, and workflow automation.",
+    title: "Insert Focus Area",
+    description:
+      "Add another capability or area of interest, using one clear sentence.",
   },
   {
-    icon: "⬡",
-    title: "Media & Content",
-    description: "Finance media brands with real audience reach and monetization.",
+    title: "Insert Focus Area",
+    description:
+      "Explain the type of problems you enjoy solving or the work you want next.",
   },
   {
-    icon: "⬡",
-    title: "Go-to-Market",
-    description: "Launch strategy, early sales, and growth for B2B and B2C products.",
+    title: "Insert Focus Area",
+    description:
+      "Use this final row for a complementary skill, perspective, or specialty.",
   },
 ];

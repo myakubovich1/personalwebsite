@@ -18,13 +18,11 @@ const clashDisplay = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://matsveiyakubovich.com"),
-  title: "Matsvei Yakubovich | Product Builder",
-  description:
-    "Founder and product builder working across software, AI, and finance media.",
+  title: "Matsvei Yakubovich | Personal Website",
+  description: "Personal website and portfolio. More details coming soon.",
   openGraph: {
-    title: "Matsvei Yakubovich | Product Builder",
-    description:
-      "Founder and product builder working across software, AI, and finance media.",
+    title: "Matsvei Yakubovich | Personal Website",
+    description: "Personal website and portfolio. More details coming soon.",
     url: "https://matsveiyakubovich.com",
     type: "website",
     locale: "en_US",
@@ -32,9 +30,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Matsvei Yakubovich | Product Builder",
-    description:
-      "Founder and product builder working across software, AI, and finance media.",
+    title: "Matsvei Yakubovich | Personal Website",
+    description: "Personal website and portfolio. More details coming soon.",
   },
   robots: {
     index: true,

@@ -14,22 +14,19 @@ export default function Contact() {
             04 / Contact
           </p>
           <h2 className="max-w-5xl font-display text-[clamp(3.8rem,9vw,8rem)] font-semibold leading-[0.88] tracking-[-0.065em]">
-            Have a hard problem worth solving?
+            Insert your closing call to action.
           </h2>
           <div className="mt-12 flex flex-col gap-8 border-t border-white/25 pt-8 md:flex-row md:items-end md:justify-between">
             <p className="max-w-xl text-lg leading-relaxed text-white/75">
-              I&apos;m interested in ambitious products, useful AI, and people
-              who care about the details. Send the rough version of the idea.
+              Tell visitors what they should contact you about, what
+              opportunities you are open to, or what they should send.
             </p>
-            <a
-              href={`mailto:${siteConfig.email}`}
-              className="group inline-flex items-center gap-4 break-all font-display text-2xl font-medium md:text-3xl"
-            >
+            <div className="inline-flex items-center gap-4 break-all font-display text-2xl font-medium md:text-3xl">
               {siteConfig.email}
-              <span className="grid h-12 w-12 flex-none place-items-center rounded-full bg-white text-[var(--accent)] transition-transform group-hover:rotate-12">
-                ↗
+              <span className="grid h-12 w-12 flex-none place-items-center rounded-full bg-white text-[var(--accent)]">
+                +
               </span>
-            </a>
+            </div>
           </div>
         </Reveal>
       </div>

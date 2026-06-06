@@ -9,11 +9,11 @@ export default function About() {
           <div className="section-heading border-white/10">
             <div className="section-number text-white/40">02</div>
             <div className="max-w-3xl">
-              <p className="eyebrow text-white/50">How I think</p>
+              <p className="eyebrow text-white/50">About placeholder</p>
               <h2 className="section-title text-white">
-                Serious about the work.
+                Insert your perspective.
                 <br />
-                Restless about the outcome.
+                Make it sound like you.
               </h2>
             </div>
           </div>
@@ -28,9 +28,8 @@ export default function About() {
             </Reveal>
             <Reveal delay={0.1}>
               <p className="mt-8 leading-relaxed text-white/60">
-                I pick a problem that matters, learn what is needed to solve it,
-                and get to a real version quickly. The goal is not just to ship.
-                It is to make something clear, useful, and commercially honest.
+                Add a second paragraph with more context about your background,
+                working style, interests, or the problems you want to solve.
               </p>
             </Reveal>
           </div>
@@ -38,7 +37,7 @@ export default function About() {
           <div>
             <Reveal delay={0.1}>
               <p className="mb-5 text-xs font-semibold uppercase tracking-[0.18em] text-white/40">
-                Areas of focus
+                Focus area placeholders
               </p>
             </Reveal>
             <ul>

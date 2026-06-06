@@ -9,7 +9,7 @@ export default function Footer() {
         <p>
           © {year} {siteConfig.name}
         </p>
-        <p>Built with intention. Updated 2026.</p>
+        <p>Replace this footer note with your own.</p>
       </div>
     </footer>
   );

@@ -10,11 +10,11 @@ export default function WorkGrid() {
           <div className="section-heading">
             <div className="section-number">01</div>
             <div className="max-w-2xl">
-              <p className="eyebrow">Selected work</p>
-              <h2 className="section-title">Built to be used.</h2>
+              <p className="eyebrow">Project mockups</p>
+              <h2 className="section-title">Insert your work here.</h2>
               <p className="section-copy">
-                A mix of software, AI, and media ventures. Each started with a
-                real problem and moved quickly toward a working product.
+                Replace these mockups with your strongest projects. Keep each
+                description short and link to more detail when available.
               </p>
             </div>
           </div>
