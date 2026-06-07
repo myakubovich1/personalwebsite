@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import type { Project } from "@/types";
 
 interface ProjectCardProps {
@@ -22,15 +24,27 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
           palettes[index % palettes.length]
         }`}
       >
-        <div className="project-grid" />
+        {project.imageUrl ? (
+          <Image
+            src={project.imageUrl}
+            alt={`${project.title} preview`}
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 50vw"
+          />
+        ) : (
+          <>
+            <div className="project-grid" />
+            <span className="project-mark">
+              {project.title
+                .split(/[\s.]+/)
+                .map((word) => word[0])
+                .join("")
+                .slice(0, 3)}
+            </span>
+          </>
+        )}
         <span className="project-index">0{index + 1}</span>
-        <span className="project-mark">
-          {project.title
-            .split(/[\s.]+/)
-            .map((word) => word[0])
-            .join("")
-            .slice(0, 3)}
-        </span>
         {project.status && (
           <span className="project-status">{project.status}</span>
         )}

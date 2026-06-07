@@ -3,8 +3,8 @@ import type { Project, ExperienceItem, Service } from "@/types";
 export const siteConfig = {
   name: "Matsvei Yakubovich",
   initials: "MY",
-  email: "Insert your email here",
-  bio: "Write a short introduction here. Keep it personal, specific, and focused on what you care about.",
+  email: "matsvei.yakubovich@gmail.com",
+  bio: "Write a short point of view here. Keep it personal, specific, and rooted in what you keep thinking about.",
 };
 
 export const projects: Project[] = [
@@ -16,6 +16,7 @@ export const projects: Project[] = [
     tags: ["Category", "Tool", "Role"],
     status: "Add status",
     link: "https://legalalien.app",
+    imageUrl: "/projects/legalalien-app.png",
   },
   {
     id: "project-two",
@@ -24,6 +25,7 @@ export const projects: Project[] = [
       "Scaled Instagram to 12,000 followers, turning Kapitalist into the largest Russian-speaking American financial news portal.",
     tags: ["Category", "Tool", "Role"],
     link: "https://kapitalist.finance",
+    imageUrl: "/projects/kapitalist-finance.png",
   },
   {
     id: "project-three",
@@ -43,55 +45,55 @@ export const projects: Project[] = [
 
 export const experience: ExperienceItem[] = [
   {
-    role: "Insert current role or program",
-    org: "Insert organization",
+    role: "Insert current chapter",
+    org: "Insert place or project",
     dateRange: "Year — Present",
     description:
-      "Add one or two sentences describing what you do, what you are learning, or what you are responsible for.",
+      "Add one or two sentences about what you are building, learning, or testing right now.",
     current: true,
   },
   {
-    role: "Insert role or milestone",
-    org: "Insert organization",
+    role: "Insert turning point",
+    org: "Insert place or project",
     dateRange: "Year — Year",
     description:
-      "Replace this placeholder with a concise description of the experience.",
+      "Replace this with the moment, project, or bet that changed your direction.",
   },
   {
-    role: "Insert role or milestone",
-    org: "Insert organization",
+    role: "Insert turning point",
+    org: "Insert place or project",
     dateRange: "Year — Year",
     description:
-      "Focus on the work, contribution, or lesson that is most relevant to your story.",
+      "Focus on the work, contribution, or lesson that matters most to your story.",
   },
   {
-    role: "Insert role or milestone",
-    org: "Insert organization",
+    role: "Insert earlier chapter",
+    org: "Insert place or project",
     dateRange: "Year",
     description:
-      "Add another position, educational experience, award, or meaningful project here.",
+      "Add another chapter, experiment, education milestone, or project that still matters.",
   },
 ];
 
 export const services: Service[] = [
   {
-    title: "Insert Focus Area",
+    title: "Insert Thought Thread",
     description:
-      "Describe one kind of work, topic, or discipline you want to be known for.",
+      "Describe one idea, theme, or question you keep returning to.",
   },
   {
-    title: "Insert Focus Area",
+    title: "Insert Thought Thread",
     description:
-      "Add another capability or area of interest, using one clear sentence.",
+      "Add another area of curiosity or conviction in one clear sentence.",
   },
   {
-    title: "Insert Focus Area",
+    title: "Insert Thought Thread",
     description:
-      "Explain the type of problems you enjoy solving or the work you want next.",
+      "Explain the kind of problems, systems, or trends you like thinking through.",
   },
   {
-    title: "Insert Focus Area",
+    title: "Insert Thought Thread",
     description:
-      "Use this final row for a complementary skill, perspective, or specialty.",
+      "Use this final row for a perspective, tension, or idea that rounds out the section.",
   },
 ];

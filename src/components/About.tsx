@@ -6,14 +6,12 @@ export default function About() {
     <section id="about" className="section-space">
       <div className="shell">
         <Reveal>
-          <div className="section-heading border-white/10">
-            <div className="section-number text-white/40">02</div>
+          <div className="section-heading section-heading-simple border-white/10">
             <div className="max-w-3xl">
-              <p className="eyebrow text-white/50">About placeholder</p>
               <h2 className="section-title text-white">
-                Insert your perspective.
+                Thoughts.
                 <br />
-                Make it sound like you.
+                Make them sound like you.
               </h2>
             </div>
           </div>
@@ -28,8 +26,8 @@ export default function About() {
             </Reveal>
             <Reveal delay={0.1}>
               <p className="mt-8 leading-relaxed text-white/60">
-                Add a second paragraph with more context about your background,
-                working style, interests, or the problems you want to solve.
+                Add a second paragraph with the ideas, obsessions, or questions
+                you keep coming back to.
               </p>
             </Reveal>
           </div>
@@ -37,7 +35,7 @@ export default function About() {
           <div>
             <Reveal delay={0.1}>
               <p className="mb-5 text-xs font-semibold uppercase tracking-[0.18em] text-white/40">
-                Focus area placeholders
+                Thought starters
               </p>
             </Reveal>
             <ul>

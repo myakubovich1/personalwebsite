@@ -6,14 +6,12 @@ export default function Timeline() {
     <section id="experience" className="section-space bg-[var(--paper)]">
       <div className="shell">
         <Reveal>
-          <div className="section-heading">
-            <div className="section-number">03</div>
+          <div className="section-heading section-heading-simple">
             <div className="max-w-2xl">
-              <p className="eyebrow">Experience mockup</p>
-              <h2 className="section-title">Add your timeline here.</h2>
+              <h2 className="section-title">Story.</h2>
               <p className="section-copy">
-                I&apos;ve done a lot of different stuff. You can see a little
-                of it down below.
+                Sketch the moments, projects, and pivots that explain how you
+                got here.
               </p>
             </div>
           </div>

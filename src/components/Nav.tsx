@@ -5,8 +5,8 @@ import { siteConfig } from "@/content";
 
 const links = [
   { label: "Work", href: "#work" },
-  { label: "About", href: "#about" },
-  { label: "Timeline", href: "#experience" },
+  { label: "Thoughts", href: "#about" },
+  { label: "Story", href: "#experience" },
 ];
 
 export default function Nav() {

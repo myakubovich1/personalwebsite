@@ -9,8 +9,9 @@ export default function WorkGrid() {
         <Reveal>
           <div className="section-heading section-heading-simple">
             <div className="max-w-2xl">
-              <p className="eyebrow">Project mockups</p>
-              <h2 className="section-title">Exploration experiences</h2>
+              <h2 className="section-title xl:whitespace-nowrap">
+                Exploration experiences
+              </h2>
               <p className="section-copy">
                 Replace these mockups with your strongest projects. Keep each
                 description short and link to more detail when available.
