@@ -10,18 +10,20 @@ export const siteConfig = {
 export const projects: Project[] = [
   {
     id: "project-one",
-    title: "Insert Project One",
+    title: "legalalien.app",
     description:
-      "Add a one-sentence description of the problem, your solution, and why the project matters.",
+      "Fully founded and built for myself, this tool is useful for any legal alien, who wants to avoid headaches with documents and deadlines.",
     tags: ["Category", "Tool", "Role"],
     status: "Add status",
+    link: "https://legalalien.app",
   },
   {
     id: "project-two",
-    title: "Insert Project Two",
+    title: "kapitalist.finance",
     description:
-      "Replace this copy with a concise project summary and the most useful context for a visitor.",
+      "Scaled Instagram to 12,000 followers, turning Kapitalist into the largest Russian-speaking American financial news portal.",
     tags: ["Category", "Tool", "Role"],
+    link: "https://kapitalist.finance",
   },
   {
     id: "project-three",
@@ -35,20 +37,6 @@ export const projects: Project[] = [
     title: "Insert Project Four",
     description:
       "Add what you made, what you contributed, and the result you want people to remember.",
-    tags: ["Category", "Tool", "Role"],
-  },
-  {
-    id: "project-five",
-    title: "Insert Project Five",
-    description:
-      "This card can be removed, duplicated, or replaced when your final project list is ready.",
-    tags: ["Category", "Tool", "Role"],
-  },
-  {
-    id: "project-six",
-    title: "Insert Project Six",
-    description:
-      "Link this card to a live product, case study, repository, article, or other relevant page.",
     tags: ["Category", "Tool", "Role"],
   },
 ];

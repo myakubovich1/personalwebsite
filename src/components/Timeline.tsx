@@ -12,8 +12,8 @@ export default function Timeline() {
               <p className="eyebrow">Experience mockup</p>
               <h2 className="section-title">Add your timeline here.</h2>
               <p className="section-copy">
-                Replace these rows with only the experiences that support the
-                story you want this website to tell.
+                I&apos;ve done a lot of different stuff. You can see a little
+                of it down below.
               </p>
             </div>
           </div>

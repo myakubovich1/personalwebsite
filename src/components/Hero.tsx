@@ -5,33 +5,33 @@ export default function Hero() {
       <div className="shell relative">
         <div className="grid gap-12 lg:grid-cols-[minmax(0,1.35fr)_minmax(300px,.65fr)] lg:items-end">
           <div>
-            <p className="mb-8 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-              <span className="status-dot" />
-              Insert your role or one-line introduction
-            </p>
-            <h1 className="max-w-4xl font-display text-[clamp(4.2rem,10vw,9rem)] font-semibold leading-[0.82] tracking-[-0.07em] text-[var(--ink)]">
-              Matsvei
-              <br />
-              <span className="text-[var(--accent)]">Yakubovich.</span>
+            <h1 className="max-w-4xl font-display font-semibold text-[var(--ink)]">
+              <span className="mb-4 block text-[clamp(2.2rem,4.5vw,4rem)] leading-none tracking-[-0.04em]">
+                Hey, I&apos;m
+              </span>
+              <span className="block text-[clamp(4.5rem,10.5vw,9.5rem)] leading-[0.84] tracking-[-0.07em]">
+                Matsvei
+                <br />
+                <span className="text-[var(--accent)]">Yakubovich</span>
+              </span>
             </h1>
           </div>
 
           <div className="lg:pb-2">
             <p className="max-w-md text-lg leading-relaxed text-[var(--ink)] md:text-xl">
-              Write your main headline here. Explain what you do and the kind
-              of work you want to be known for.
+              I&apos;m interested in a lot of things, especially when
+              &ldquo;AI&rdquo; is somewhere in the name.
             </p>
             <p className="mt-5 max-w-md text-sm leading-relaxed text-[var(--muted)]">
-              Add a short supporting sentence with your current focus,
-              location, availability, or another useful detail.
+              Click below to talk to me.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a href="#contact" className="button-primary">
-                Start a conversation
+                Schedule a convo
                 <span aria-hidden="true">↗</span>
               </a>
               <a href="#work" className="button-secondary">
-                See selected work
+                See the stuff
               </a>
             </div>
           </div>

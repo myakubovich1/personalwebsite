@@ -7,11 +7,10 @@ export default function WorkGrid() {
     <section id="work" className="section-space bg-[var(--paper)]">
       <div className="shell">
         <Reveal>
-          <div className="section-heading">
-            <div className="section-number">01</div>
+          <div className="section-heading section-heading-simple">
             <div className="max-w-2xl">
               <p className="eyebrow">Project mockups</p>
-              <h2 className="section-title">Insert your work here.</h2>
+              <h2 className="section-title">Exploration experiences</h2>
               <p className="section-copy">
                 Replace these mockups with your strongest projects. Keep each
                 description short and link to more detail when available.
