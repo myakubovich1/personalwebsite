@@ -4,7 +4,7 @@ export const siteConfig = {
   name: "Matsvei Yakubovich",
   initials: "MY",
   email: "matsvei.yakubovich@gmail.com",
-  bio: "Write a short point of view here. Keep it personal, specific, and rooted in what you keep thinking about.",
+  bio: "I like building things where software, incentives, and real-life friction collide, especially when AI can make a messy system easier to understand.",
 };
 
 export const projects: Project[] = [
@@ -13,8 +13,8 @@ export const projects: Project[] = [
     title: "legalalien.app",
     description:
       "Fully founded and built for myself, this tool is useful for any legal alien, who wants to avoid headaches with documents and deadlines.",
-    tags: ["Category", "Tool", "Role"],
-    status: "Add status",
+    tags: ["Founder", "AI", "Immigration"],
+    status: "Live",
     link: "https://legalalien.app",
     imageUrl: "/projects/legalalien-app.png",
   },
@@ -23,77 +23,79 @@ export const projects: Project[] = [
     title: "kapitalist.finance",
     description:
       "Scaled Instagram to 12,000 followers, turning Kapitalist into the largest Russian-speaking American financial news portal.",
-    tags: ["Category", "Tool", "Role"],
+    tags: ["Media", "Growth", "Finance"],
     link: "https://kapitalist.finance",
     imageUrl: "/projects/kapitalist-finance.png",
   },
   {
     id: "project-three",
-    title: "Insert Project Three",
+    title: "List.am",
     description:
-      "Use this space for another case study, experiment, company, or piece of work you want to feature.",
-    tags: ["Category", "Tool", "Role"],
+      "Worked in UX/UI design at Armenia's largest classifieds platform, thinking through cleaner flows and sharper product decisions for a mass-market product.",
+    tags: ["UX/UI", "Marketplace", "Product"],
+    link: "https://www.list.am/en/",
   },
   {
     id: "project-four",
-    title: "Insert Project Four",
+    title: "FIRST Global Team Armenia",
     description:
-      "Add what you made, what you contributed, and the result you want people to remember.",
-    tags: ["Category", "Tool", "Role"],
+      "Led fundraising for Armenia's FIRST Global robotics team, learning how to turn a technical mission into a story sponsors wanted to support.",
+    tags: ["Fundraising", "Robotics", "Storytelling"],
+    link: "https://first.global/",
   },
 ];
 
 export const experience: ExperienceItem[] = [
   {
-    role: "Insert current chapter",
-    org: "Insert place or project",
-    dateRange: "Year — Present",
+    role: "Honors student in Information Systems and Economics",
+    org: "University of Florida",
+    dateRange: "2025 — Present",
     description:
-      "Add one or two sentences about what you are building, learning, or testing right now.",
+      "Studying how software, markets, and incentives shape the way people make decisions, with one foot in product and the other in economics.",
     current: true,
   },
   {
-    role: "Insert turning point",
-    org: "Insert place or project",
-    dateRange: "Year — Year",
+    role: "Administrative Intern",
+    org: "Stealth startup",
+    dateRange: "2025",
     description:
-      "Replace this with the moment, project, or bet that changed your direction.",
+      "Spent a summer close to early-stage operations in Palo Alto, seeing how much real company building depends on clarity, follow-through, and fast learning.",
   },
   {
-    role: "Insert turning point",
-    org: "Insert place or project",
-    dateRange: "Year — Year",
+    role: "UX/UI Design Intern",
+    org: "List.am",
+    dateRange: "2024 — 2025",
     description:
-      "Focus on the work, contribution, or lesson that matters most to your story.",
+      "Got pulled deeper into product thinking through interface work, learning how small design decisions affect trust, usability, and scale.",
   },
   {
-    role: "Insert earlier chapter",
-    org: "Insert place or project",
-    dateRange: "Year",
+    role: "Financial operations team member and fundraising manager",
+    org: "UWC Dilijan / FIRST Global Team Armenia",
+    dateRange: "2024 — 2025",
     description:
-      "Add another chapter, experiment, education milestone, or project that still matters.",
+      "Worked across social entrepreneurship and robotics, which pushed me toward projects that mix mission, systems, and practical execution.",
   },
 ];
 
 export const services: Service[] = [
   {
-    title: "Insert Thought Thread",
+    title: "AI for real friction",
     description:
-      "Describe one idea, theme, or question you keep returning to.",
+      "I keep coming back to tools that use AI to make bureaucratic, confusing, or repetitive processes easier to survive.",
   },
   {
-    title: "Insert Thought Thread",
+    title: "Useful software beats flashy software",
     description:
-      "Add another area of curiosity or conviction in one clear sentence.",
+      "I care more about products people genuinely return to than products that only look impressive in a demo.",
   },
   {
-    title: "Insert Thought Thread",
+    title: "Media is distribution",
     description:
-      "Explain the kind of problems, systems, or trends you like thinking through.",
+      "Kapitalist made me think about content as a system for trust, reach, and leverage rather than just publishing.",
   },
   {
-    title: "Insert Thought Thread",
+    title: "Design changes behavior",
     description:
-      "Use this final row for a perspective, tension, or idea that rounds out the section.",
+      "Good interfaces do more than look clean; they lower hesitation, reduce mistakes, and help people move through a system with confidence.",
   },
 ];
